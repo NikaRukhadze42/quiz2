@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/textViewName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:paddingTop="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSurName"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewMail"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:id="@+id/changeButton"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:id="@+id/removeButton"/>
+
+</LinearLayout>
